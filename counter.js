@@ -11,7 +11,7 @@ export function setupCounter(element) {
   }
 
 
-  element.addEventListener('click', () => setCounter(counter + 5))
+  element.addEventListener('click', () => setCounter(counter + 6))
 
   setCounter(0)
 }
